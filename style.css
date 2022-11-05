@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+
     
 }
 ul {
@@ -33,10 +35,12 @@ ul {
 }
 .box-top {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 200px;
     padding-bottom: 50px;
     flex: 1;
+    margin: 0;
+    padding: 200px;
 }
 .l-top {
     display: flex;
